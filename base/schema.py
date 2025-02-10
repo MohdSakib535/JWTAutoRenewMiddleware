@@ -25,6 +25,18 @@ query {
     email
   }
 }
+
+
+department
+
+query {
+  allDepartments {
+    id
+    name
+    description
+  }
+}
+
 """
 
 class Query(graphene.ObjectType):
